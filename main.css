@@ -1,0 +1,68 @@
+
+#fotoCv{
+    width: 150px;
+    border-radius: 50%;
+    padding: 20px ;
+}
+
+.container  {
+    width:  90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+
+}
+.container p{ margin: 0;
+
+}
+.container .contenido{
+    grid-column-start: 1;
+    grid-column-end:  2;
+    text-align: center;
+}
+
+.container .contenido2{
+    grid-column-start: 2;
+    grid-column-end:  6;
+    padding: 5px ;
+}
+.contenido2_h1{
+  text-align: center;
+}
+
+.contenido2_article ,h2, h3, h4{
+ 
+
+    margin-bottom: 10px;
+}
+
+.contenido2_article h2 {
+font-size: 20px;
+}
+.contenido2_article h3 {
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 10px;
+}
+    
+    
+
+
+.contenido2_article ,.form_Contacto{
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+ /* .form_Contacto{
+   
+ } */
+ 
+ #contenido_Form{
+     font-size: 20px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    width: 500px;
+ }
